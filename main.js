@@ -1,11 +1,10 @@
-// made by: mico tongco and chino salansang
 (function () {
   var animating = false;
 
   function animatecard(ev) {
     if (animating === false) {
       var t = ev.target;
-      if (t.className === "but-nope") {
+      if (t.className === "pass") {
         t.parentNode.classList.add("nope");
         animating = true;
         fireCustomEvent("nopecard", {
@@ -14,7 +13,7 @@
           card: t.parentNode.querySelector(".card"),
         });
       }
-      if (t.className === "but-yay") {
+      if (t.className === "smash") {
         t.parentNode.classList.add("yes");
         animating = true;
         fireCustomEvent("yepcard", {
@@ -119,28 +118,28 @@ let imglist = [];
 
 let imgFolder = "imgs";
 let aniImg = [
-  "imgs/1p.jpg",
-  "imgs/2p.jpg",
-  "imgs/3p.jpg",
-  "imgs/4p.jpg",
-  "imgs/5p.jpg",
-  "imgs/6p.jpg",
-  "imgs/7p.jpg",
-  "imgs/8p.jpg",
-  "imgs/9p.jpg",
-  "imgs/10p.jpg",
+  "imgs/A1.jpg",
+  "imgs/A2.jpg",
+  "imgs/A3.jpg",
+  "imgs/A4.jpg",
+  "imgs/A5.jpg",
+  "imgs/A6.jpg",
+  "imgs/A7.jpg",
+  "imgs/A8.jpg",
+  "imgs/A9.jpg",
+  "imgs/A10.jpg",
 ];
 let petNames = [
-  "Osman | 24 years old",
-  "Bronwen | 20 years old",
-  "Luke | 25 years old",
-  "Aairaz | 26 years old",
-  "Callam | 20 years old",
-  "Elisha | 21 years old",
-  "Maisey | 23 years old",
-  "Leigha | 22 years old",
-  "Fabian | 25 years old",
-  "Nibiha | 23 years old",
+  "Marc | 20 years old",
+  "Puma | 22 years old",
+  "Anemone| 19 years old",
+  "Mozy | 20 years old",
+  "Natan | 23 years old",
+  "Lark | 18 years old",
+  "Turty | 20 years old",
+  "Nate | 20 years old",
+  "Stery | 20 years old",
+  "Mufasa | 20 years old",
 ];
 
 function random() {

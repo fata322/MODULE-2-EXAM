@@ -42,7 +42,7 @@ h1 {
   animation: nope 0.7s ease-out;
 }
 .card {
-  background: rgb(107, 218, 233);
+  background: rgb(208, 107, 255);
   color: #000;
 }
 .list ul.cardlist {
@@ -78,15 +78,15 @@ h1 {
   display: block;
 }
 
-.but-nope,
-.but-yay,
+.pass,
+.smash,
 .nopes,
 .yays {
   display: none;
 }
 
-.but-nope,
-.but-yay,
+.smash,
+.pass,
 .nopes,
 .yays {
   margin-top: 10px;
