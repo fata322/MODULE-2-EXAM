@@ -104,7 +104,6 @@ h1 {
 
 .list-container {
   box-shadow: 5px 5px rgb(241, 150, 150);
-  border-color: rgb(87, 4, 4);
   border-radius: 20px;
   position: relative;
   background-color: rgb(189, 85, 90);
@@ -124,10 +123,9 @@ h1 {
 }
 
 .cardcontainer button {
-  border-color: rgb(201, 59, 59);
-  box-shadow: 5px 5px #ccc;
+  border-color: rgb(250, 115, 115);
   color: #fff;
-  background-color: rgb(167, 103, 114);
+  background-color: rgb(247, 150, 166);
   border-radius: 50% 50%;
   font-size: 20px;
   width: 70px;
@@ -139,11 +137,11 @@ h1 {
 }
 
 .cardcontainer .but-nope:hover {
-  background-color: rgb(252, 95, 95);
+  background-color: rgb(250, 81, 81);
 }
 
 .cardcontainer .but-yay:hover {
-  background-color: rgb(235, 27, 27);
+  background-color: rgb(52, 250, 135);
 }
 
 .cardcontainer.yes .card {
